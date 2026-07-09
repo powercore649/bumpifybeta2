@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic';
 import { fetchServers } from '@/lib/bridge';
 import { computeScore, formatNumber, isTrending, isNew } from '@/lib/utils';
 import LeaderboardClient from '@/components/LeaderboardClient';

@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic';
 import { fetchServers } from '@/lib/bridge';
 import { computeScore, isNew } from '@/lib/utils';
 import DirectoryClient from '@/components/DirectoryClient';
